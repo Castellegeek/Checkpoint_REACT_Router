@@ -1,0 +1,106 @@
+
+.miabox-card{
+}
+.miabox-nav-bg-color{
+  border: 5px dashed black;
+  margin: 0.5rem;
+  background-color: palevioletred;
+  border-radius: 1rem;
+  font-size: 20px;
+}
+input{
+  margin-right: 3.7cm;
+}
+
+a:active {
+color: blue;
+}
+
+a{
+text-decoration: none;
+}
+
+.xs-row-to-column{
+display: flex;
+}
+
+@media only screen and (max-width:36em){
+.xs-row-to-column{
+display:block;
+}
+}
+
+body{
+background-color: plum;
+font-weight: bold;
+letter-spacing: 3px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.miabox-card img{
+width: 100%;
+height: 250px;
+object-fit: cover;
+margin-bottom: 20px;
+border-radius: 10px;
+border: 4px solid black;
+}
+
+
+
+
+
+
+.card--miabox{
+position: relative;
+transition: all .3s ease-in-out;
+
+
+}
+
+.card--miabox:hover{
+position: relative;
+transform: scale(1.2);
+}
+
+.card--miabox:hover .overlay{
+
+visibility: visible;
+opacity: 1;
+z-index : 1111;
+
+
+}
+/* transform: scale(1.1); */
+
+.card--miabox .overlay{
+width: 100%;
+height: 250px;
+border-radius: 5px;
+background-color: #15141594;
+position: absolute;
+top: 0;
+opacity: 0;
+visibility: hidden; 
+transition: all .3s ease-in-out;
+z-index : 1111;
+
+}
+/* 
+*/
+.overlay-header{
+height: 60%;
+}
+
+.overlay-footer{
+height: 40%;
+background-color: #151415;
+}
+
+.btn-18{
+border:white solid 1px; 
+color:white; 
+width: 15%; 
+height: 30%;
+border-radius: 5px;
+}
